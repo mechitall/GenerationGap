@@ -7,6 +7,8 @@
 node_modules/
 __pycache__/
 *.pyc
+package-lock.json
+yarn.lock
 
 # IDE files
 .vscode/
@@ -17,3 +19,16 @@ __pycache__/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
